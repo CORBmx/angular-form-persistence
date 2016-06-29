@@ -1,0 +1,46 @@
+{
+  "name": "angular-form-persistence",
+  "version": "0.0.1",
+  "description": "An Angular module that gives you data persistence using local storage",
+  "main": "dist/angular-form-persistence.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.babel.js --mode=build",
+    "dev": "webpack -d --watch --progress --colors --config webpack.config.babel.js --mode=dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CORBmx"
+  },
+  "keywords": [
+    "angular",
+    "form",
+    "persistence",
+    "local",
+    "storage"
+  ],
+  "author": "Andrés Ávila <andres.avila@corb.mx>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-2": "^6.5.0",
+    "babel-register": "^6.9.0",
+    "ng-annotate-loader": "^0.1.0",
+    "webpack": "^1.13.1",
+    "yargs": "^4.7.1"
+  },
+  "dependencies": {
+    "store": "^1.3.20"
+},
+"bugs": {
+    "url": "https://github.com/CORBmx/angular-form-persistence/issues"
+  },
+  "homepage": "https://github.com/CORBmx/angular-form-persistence"
+}
